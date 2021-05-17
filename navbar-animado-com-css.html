@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Navbar responsivo animado com CSS</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="estilo.css">
+
+        <!-- Cor de personalização -->
+        <meta name="msapplication-TileColor" content="#070707">
+        <meta name="theme-color" content="#feda00">
+
+        <!-- Fonte -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="navabar-github.svg" type="image/x-icon">
+        <link rel="icon" href="navabar-github.svg" type="image/x-icon">
+    </head>
+
+    <body>
+        <!-- Onde eu criei um input e label para fazer o funcionamento do estado :checked e o hamburguer, que eu resolvi usar só um elemento e o :before e :after. -->
+        <input id="menu-hamburguer" type="checkbox" />
+      
+        <label for="menu-hamburguer">
+          <div class="menu">
+            <span class="hamburguer"></span>
+          </div>
+        </label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Servições</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+      </body>
+</html>
